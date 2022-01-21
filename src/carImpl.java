@@ -28,7 +28,7 @@ public void createfile(){
        Path path = Paths.get("./asf");
 
 
-       FileWriter fileWriter=new FileWriter("abb.txt");
+       FileWriter fileWriter=new FileWriter(file);
 
        BufferedWriter bufferedWriter=new BufferedWriter(fileWriter);
        bufferedWriter.write("afafa");
@@ -38,7 +38,7 @@ public void createfile(){
 
             BufferedReader reader1=new BufferedReader(reader);
 
-f
+
        if (file.createNewFile()){
            System.out.println("file created");
        }
