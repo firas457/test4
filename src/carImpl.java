@@ -38,7 +38,7 @@ public void createfile(){
 
             BufferedReader reader1=new BufferedReader(reader);
 
-
+f
        if (file.createNewFile()){
            System.out.println("file created");
        }
